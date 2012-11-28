@@ -28,6 +28,10 @@
                     <cellValueFactory>
                         <PropertyValueFactory property="firstName" />
                     </cellValueFactory>
+                    <cellFactory>
+                          <FormattedTableCellFactory alignment="center">
+                          </FormattedTableCellFactory>
+                    </cellFactory>
                 </TableColumn>
                 <TableColumn text="Last Name" prefWidth="100">
                     <cellValueFactory>
