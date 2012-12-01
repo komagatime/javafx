@@ -62,6 +62,16 @@
                 <fx:reference source="firstNameColumn"/>
             </sortOrder>
         </TableView>
+        <HBox spacing="10" alignment="bottom_right" GridPane.columnIndex="0" 
+          GridPane.rowIndex="2">
+          <TextField fx:id="firstNameField" promptText="First Name"
+               prefWidth="90"/>
+          <TextField fx:id="lastNameField" promptText="Last Name"
+               prefWidth="90"/>
+          <TextField fx:id="emailField" promptText="email"
+               prefWidth="150"/>
+          <Button text="Add" onAction="#addPerson"/>
+        </HBox>
     </GridPane>
     
 </Scene>
